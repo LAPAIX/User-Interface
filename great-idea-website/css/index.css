@@ -64,3 +64,101 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+   width:890px;
+   margin:20px 10px 0px 130px;
+}
+ 
+nav{
+	width:900px;
+	margin: 40px 50px 90px 0px;
+}
+
+nav a{
+	color:lightgrey;
+	margin:30px;
+	text-decoration: none;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	transition:0.1s linear;
+	border-radius:5px;	
+
+}
+
+nav a:hover{
+	background-color:#000;
+	color:red;
+	padding:15px;
+	transition:0.1s linear;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.logo{
+	float:right;
+	margin:-10px;
+}
+ 
+header{
+margin: 0px 20px 50px 20px;
+}
+
+header h1 {
+	font-size:80px;
+	width:300px;
+	text-align:center;
+	margin: 50px 140px 5px 20px;
+    float:left;
+}
+
+button {
+	border:1px solid #000;
+	padding: 8px 50px;
+	background-color:white;
+	transition:0.1s linear;
+}
+
+button:hover{
+	background-color:#000;
+	color:white;
+	padding:20px;
+	transition:0.1s linear;
+	border-radius:5px;
+} 
+
+hr{
+	 margin:45px 0px 20px 0px;
+	 border:1px solid #000;
+}
+ 
+ 
+
+.top-content div{
+    display: inline-block;
+	width:430px;
+    margin: 20px 10px 0px 0px;
+ }
+
+.middle-img{
+margin: 30px 0px;
+}
+
+.bottom-content div {
+	display:inline-block;
+	width:280px;
+	margin-right:10px;
+}
+
+.contact {
+	width:200px;
+	margin-top:45px;
+ 
+}
+.contact p {
+	margin-top:20px;
+ 
+}
+
+footer{
+	text-align: center;
+	margin:80px;
+}
